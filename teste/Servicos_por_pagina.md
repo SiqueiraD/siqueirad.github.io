@@ -108,23 +108,23 @@
             > 10. PrazoCambial
             > * TipoExportação: *Mercadorias ou Serviços*
 
-    - ## Cotações.PNG
-        ![erro](img/contratos-cotacao-01.png)
+    - ## Cotações
+        ![erro](img/contratos-cotacao-01.PNG)
         - ### **CotacoesContratoUsuario**() 
             > 1. DataRange
             > 1. ClienteId *(SecurityInfo)*
             >
-            > ![erro](img/contratos-cotacao-lista-01.png)
+            > ![erro](img/contratos-cotacao-lista-01.PNG)
         
-        ![erro](img/contratos-cotacao-lista-02.png)
+        ![erro](img/contratos-cotacao-lista-02.PNG)
         - ### **ProCam.WebControls.ValorFechadoCotacao** CotacaoContrato()
             > 1. CotacaoId
             >
-            > ![erro](img/contratos-cotacao-cot.png)
+            > ![erro](img/contratos-cotacao-cot.PNG)
 
 - # Corretagem 
-    - ## Consulta de boletos.PNG
-        ![erro](img/corretagem-consulta-01.png)![erro](img/corretagem-consulta-02.png)![erro](img/corretagem-consulta-03.png)
+    - ## Consulta de boletos
+        ![erro](img/corretagem-consulta-01.PNG)![erro](img/corretagem-consulta-02.PNG)![erro](img/corretagem-consulta-03.PNG)
         - ### **Boletos**()
             > 1. NumeroBanco 
             > 2. ClienteId *(SecurityInfo)*
@@ -135,13 +135,13 @@
             > 1. NotaFiscal
             > 1. ClienteId *(SecurityInfo)*
 
-        > ![erro](img/corretagem-consulta-lista-01.png)
+        > ![erro](img/corretagem-consulta-lista-01.PNG)
         
-        ![erro](img/corretagem-consulta-lista-02.png)
-        ![erro](img/errorPage.png)
+        ![erro](img/corretagem-consulta-lista-02.PNG)
+        ![erro](img/errorPage.PNG)
         
-    - ## Consulta de notas fiscais.PNG
-        ![erro](img/corretagem-consulta-notafiscal-01.png)![erro](img/corretagem-consulta-notafiscal-02.png)![erro](img/corretagem-consulta-notafiscal-03.png)
+    - ## Consulta de notas fiscais
+        ![erro](img/corretagem-consulta-notafiscal-01.PNG)![erro](img/corretagem-consulta-notafiscal-02.PNG)![erro](img/corretagem-consulta-notafiscal-03.PNG)
         - ### **NotasFiscais**()
             > 1. Numero 
             > 2. ClienteId *(SecurityInfo)*
@@ -152,42 +152,42 @@
             > 1. NumeroBACEN
             > 1. ClienteId *(SecurityInfo)*
         
-        > ![erro](img/corretagem-consulta-notafiscal-lista-01.png)
+        > ![erro](img/corretagem-consulta-notafiscal-lista-01.PNG)
 
-        ![erro](img/corretagem-consulta-notafiscal-lista-02.png)
+        ![erro](img/corretagem-consulta-notafiscal-lista-02.PNG)
         - ### **NotaFiscalDetail**()
             > 1. NotaFiscalId
             >
-            > ![erro](img/corretagem-consulta-notafiscal-nf-01.png)
+            > ![erro](img/corretagem-consulta-notafiscal-nf-01.PNG)
 
-        ![erro](img/corretagem-consulta-notafiscal-nf-02.png)
+        ![erro](img/corretagem-consulta-notafiscal-nf-02.PNG)
         - ### [ContratoDetail()](#ProCam.WebControls.Operador-ContratoDetail)
-            > ![erro](img/corretagem-consulta-notafiscal-nf-contrato.png)
+            > ![erro](img/corretagem-consulta-notafiscal-nf-contrato.PNG)
 
-        ![erro](img/corretagem-consulta-notafiscal-nf-03.png)
+        ![erro](img/corretagem-consulta-notafiscal-nf-03.PNG)
         - ### **ContratosPorNotaFiscal**()
-            > ![erro](img/corretagem-consulta-notafiscal-nf-contratos.png)
+            > ![erro](img/corretagem-consulta-notafiscal-nf-contratos.PNG)
 
-    - ## Relatório de corretagem por período.PNG
-        ![erro](img/corretagem-relatorio-periodo-01.png)
+    - ## Relatório de corretagem por período
+        ![erro](img/corretagem-relatorio-periodo-01.PNG)
         - ### **CorretagemPorCliente**()
             > 1. DataRange
             > 3. ClienteId *(SecurityInfo)*
             >
-            > ![erro](img/corretagem-relatorio-periodo-resultado.png)
+            > ![erro](img/corretagem-relatorio-periodo-resultado.PNG)
 
 - # Tesouraria 
-    - ## Contas a pagar.PNG
-        ![erro](img/tesouraria-cpagar-01.png)
+    - ## Contas a pagar
+        ![erro](img/tesouraria-cpagar-01.PNG)
         - ### **ConsolidadoPorMes**()
             > 1. ClienteId *(SecurityInfo)*
             > 2. PagRecId
             > 3. TipoOpId (tipoOperacao)
             > 4. DataRange
             >
-            > ![erro](img/tesouraria-cpagar-mes-01.png)
+            > ![erro](img/tesouraria-cpagar-mes-01.PNG)
         
-        ![erro](img/tesouraria-cpagar-mes-02.png)
+        ![erro](img/tesouraria-cpagar-mes-02.PNG)
         - ### **ConsolidadoPorDia**()
             > 1. MesI
             > 2. AnoI
@@ -238,9 +238,9 @@
             > 10. dia
             > 11. BL
 
-        > ![erro](img/tesouraria-cpagar-dia-01.png)
+        > ![erro](img/tesouraria-cpagar-dia-01.PNG)
 
-        ![erro](img/tesouraria-cpagar-dia-02.png)
+        ![erro](img/tesouraria-cpagar-dia-02.PNG)
         - ### **FaturaJurosRecebedor**()
             > 1. DocumentoId
 
@@ -253,54 +253,54 @@
         - ### **BL**()
             > 1. DocumentoId
 
-        > ![erro](img/tesouraria-cpagar-financeiro-fatura-01.png)
+        > ![erro](img/tesouraria-cpagar-financeiro-fatura-01.PNG)
 
-    - ## Contas a receber.PNG
+    - ## Contas a receber
         - ### **ConsolidadoAReceberPorMes**()
             > 1. ClienteId *(SecurityInfo)*
             >
-            > ![erro](img/tesouraria-creceber-mes-01.png)
-            > ![erro](img/tesouraria-creceber-mes-02.png)
+            > ![erro](img/tesouraria-creceber-mes-01.PNG)
+            > ![erro](img/tesouraria-creceber-mes-02.PNG)
 
-        ![erro](img/tesouraria-creceber-mes-03.png)
+        ![erro](img/tesouraria-creceber-mes-03.PNG)
         - ### **ConsolidadoPorDia**()
             > 1. Mes
             > 2. Ano
             > 1. ClienteId *(SecurityInfo)*
             > 
-            > ![erro](img/tesouraria-creceber-dia-01.png)
+            > ![erro](img/tesouraria-creceber-dia-01.PNG)
 
-        ![erro](img/tesouraria-creceber-dia-02.png)
+        ![erro](img/tesouraria-creceber-dia-02.PNG)
         - ### **ConsolidadoPorCliente**()
             > 1. Mes
             > 2. Ano
             > 1. ClienteId *(SecurityInfo)*
             > 
-            > ![erro](img/tesouraria-creceber-cliente-01.png)
+            > ![erro](img/tesouraria-creceber-cliente-01.PNG)
 
-        ![erro](img/tesouraria-creceber-cliente-02.png)
+        ![erro](img/tesouraria-creceber-cliente-02.PNG)
         - ### **ConsolidadoAReceberFinanceiro**()
             > 1. Mes
             > 2. Ano
             > 1. ClienteId *(SecurityInfo)*
             > 
-            > ![erro](img/tesouraria-creceber-financeiro-01.png)
+            > ![erro](img/tesouraria-creceber-financeiro-01.PNG)
 
-        ![erro](img/tesouraria-creceber-cliente-03.png)
+        ![erro](img/tesouraria-creceber-cliente-03.PNG)
         - ### **ConsolidadoExportacao**()
             > 1. Mes
             > 2. Ano
             > 1. ClienteId *(SecurityInfo)*
 
-        ![erro](img/tesouraria-creceber-financeiro-02.png)
+        ![erro](img/tesouraria-creceber-financeiro-02.PNG)
         - ### **FaturaServicosRecebedor**()
             > 1. DocumentoId   
 
-        ![erro](img/tesouraria-creceber-cliente-03.png)
+        ![erro](img/tesouraria-creceber-cliente-03.PNG)
         - ### **ConsolidadoPorCliente**()
             > 1. ClienteId *(SecurityInfo)*
             > 
-            > ![erro](img/tesouraria-creceber-cliente-01.png)
+            > ![erro](img/tesouraria-creceber-cliente-01.PNG)
              
     - ## Back o back
         - ### **listarBackToBacksPendentes**()
