@@ -1,8 +1,8 @@
 
 - # Contratos 
     - ## Consultar
-        ![erro](img/contratos-consulta-01.png)
-        ![erro](img/contratos-consulta-02.png)
+        ![erro](img/contratos-consulta-01.PNG)
+        ![erro](img/contratos-consulta-02.PNG)
         - ### **ContratosBusca**() 
             > 1. Numero *ou* NumeroBACEN  
             > 1. Natureza  
@@ -64,37 +64,37 @@
             > 1. BackToBack   
             > 1. ClienteId *(SecurityInfo)*
         
-        > ![erro](img/contratos-consulta-lista-01.png)
+        > ![erro](img/contratos-consulta-lista-01.PNG)
         
-        ![erro](img/contratos-consulta-lista-02.png)
+        ![erro](img/contratos-consulta-lista-02.PNG)
         - ### **ProCam.WebControls.Operador** ContratoDetail()
-            > ![erro](img/contratos-consulta-contrato-01.png )
+            > ![erro](img/contratos-consulta-contrato-01.PNG )
 
-        ![erro](img/contratos-consulta-contrato-02.png )
+        ![erro](img/contratos-consulta-contrato-02.PNG )
         - ### **ProCam.WebControls.ValorFechadoCotacao** CotacaoContrato()
             > 1. CotacaoContratoId
             > 2. ItemCotacaoContratoId
             >
-            > ![erro](img/contratos-consulta-contrato-cotacao-01.png)
+            > ![erro](img/contratos-consulta-contrato-cotacao-01.PNG)
 
-        ![erro](img/contratos-consulta-contrato-03.png)
+        ![erro](img/contratos-consulta-contrato-03.PNG)
         - ### **ObterAnexosContrato**()
             > 1. ContratoId
             > 
-            > ![erro](img/contratos-consulta-contrato-documentos-01.png)
+            > ![erro](img/contratos-consulta-contrato-documentos-01.PNG)
         
-        ![erro](img/contratos-consulta-contrato-documentos-02.png)
+        ![erro](img/contratos-consulta-contrato-documentos-02.PNG)
         - ### **RedirecionarAplicacoesDocumento**()
             > 1. AplicacaoId
             >
-            > ![erro](img/contratos-consulta-contrato-documentos-doc-01.png)
+            > ![erro](img/contratos-consulta-contrato-documentos-doc-01.PNG)
 
-        ![erro](img/contratos-consulta-contrato-documentos-03.png)
+        ![erro](img/contratos-consulta-contrato-documentos-03.PNG)
         - ### **VisualizarImagemController** VisualizarArquivo()
             > 1. ArquivoId
 
     - ## Autorização de Contratação – Exp. C/ACC
-        ![erro](img/contratos-exportacao-01.png)
+        ![erro](img/contratos-exportacao-01.PNG)
         - ### **CriarContratoACCCambioOn**(Contrato, TipoExportação)            
             > 1. Data
             > 3. Adiantamento
@@ -108,7 +108,7 @@
             > 10. PrazoCambial
             > * TipoExportação: *Mercadorias ou Serviços*
 
-    - ## Cotações
+    - ## Cotações.PNG
         ![erro](img/contratos-cotacao-01.png)
         - ### **CotacoesContratoUsuario**() 
             > 1. DataRange
@@ -123,7 +123,7 @@
             > ![erro](img/contratos-cotacao-cot.png)
 
 - # Corretagem 
-    - ## Consulta de boletos
+    - ## Consulta de boletos.PNG
         ![erro](img/corretagem-consulta-01.png)![erro](img/corretagem-consulta-02.png)![erro](img/corretagem-consulta-03.png)
         - ### **Boletos**()
             > 1. NumeroBanco 
@@ -140,7 +140,7 @@
         ![erro](img/corretagem-consulta-lista-02.png)
         ![erro](img/errorPage.png)
         
-    - ## Consulta de notas fiscais
+    - ## Consulta de notas fiscais.PNG
         ![erro](img/corretagem-consulta-notafiscal-01.png)![erro](img/corretagem-consulta-notafiscal-02.png)![erro](img/corretagem-consulta-notafiscal-03.png)
         - ### **NotasFiscais**()
             > 1. Numero 
@@ -168,7 +168,7 @@
         - ### **ContratosPorNotaFiscal**()
             > ![erro](img/corretagem-consulta-notafiscal-nf-contratos.png)
 
-    - ## Relatório de corretagem por período
+    - ## Relatório de corretagem por período.PNG
         ![erro](img/corretagem-relatorio-periodo-01.png)
         - ### **CorretagemPorCliente**()
             > 1. DataRange
@@ -177,7 +177,7 @@
             > ![erro](img/corretagem-relatorio-periodo-resultado.png)
 
 - # Tesouraria 
-    - ## Contas a pagar
+    - ## Contas a pagar.PNG
         ![erro](img/tesouraria-cpagar-01.png)
         - ### **ConsolidadoPorMes**()
             > 1. ClienteId *(SecurityInfo)*
@@ -255,7 +255,7 @@
 
         > ![erro](img/tesouraria-cpagar-financeiro-fatura-01.png)
 
-    - ## Contas a receber
+    - ## Contas a receber.PNG
         - ### **ConsolidadoAReceberPorMes**()
             > 1. ClienteId *(SecurityInfo)*
             >
@@ -543,7 +543,7 @@
          -  ### Solicitações Realizadas - ***DocumentTransferStatusController** ??*
 
     - ## Documentos
-        <!-- ![erro](img/relatorios-documentos-01.png) -->
+        <!-- ![erro](img/relatorios-documentos-01.PNG) -->
         - ### Fechados - **ProCamReports.GerenteRelatorios** GerarPlanilhaCambio()
             > 1. ClienteId
             > 2. datInicio
