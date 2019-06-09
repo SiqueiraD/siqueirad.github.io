@@ -936,9 +936,9 @@ var appRoutes = [
     { path: 'home', component: _home__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"], canActivate: [_guards__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"]] },
     { path: 'login', component: _login__WEBPACK_IMPORTED_MODULE_2__["LoginComponent"] },
     { path: 'register', component: _register__WEBPACK_IMPORTED_MODULE_4__["RegisterComponent"] },
-    { path: 'principal', component: _principal__WEBPACK_IMPORTED_MODULE_3__["PrincipalComponent"] },
+    { path: '', component: _principal__WEBPACK_IMPORTED_MODULE_3__["PrincipalComponent"] },
     // otherwise redirect to home
-    { path: '**', redirectTo: 'principal' }
+    { path: '**', redirectTo: '' }
 ];
 var routing = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(appRoutes);
 
