@@ -12,3 +12,7 @@
    font-size: 85px;
    background: url('./honeycomb.png');
  }
+
+ #mapid {
+  height: 560px !important;
+}
