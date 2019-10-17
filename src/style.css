@@ -1,0 +1,14 @@
+ @font-face {
+   font-family: 'MyFont';
+   src: url('./cs_regular.ttf') format('ttf'),
+     url('./cs_regular.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+ }
+
+ .hello {
+   color: red;
+   font-family: 'MyFont';
+   font-size: 85px;
+   background: url('./honeycomb.png');
+ }
