@@ -14,9 +14,9 @@ var grag, plco, pvm;
 function INITIALFUNTION() {
     mymap.on('click', onMapClick);
 
-    mymap.setMinZoom(15);
+    mymap.setMinZoom(14);
     mymap.setMaxBounds(JSON.parse('[{"lat":-22.881078055773916,"lng":-43.0988073348999},{"lat":-22.916816154261323,"lng":-43.167343139648445}]'));
-    mymap.flyTo(JSON.parse('{"lat":-22.902091142562867,"lng":-43.13004970550537}'));
+    //mymap.flyTo(JSON.parse('{"lat":-22.902091142562867,"lng":-43.13004970550537}'));
 
 
     montaUFFs();
