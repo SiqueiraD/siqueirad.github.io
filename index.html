@@ -1,31 +1,60 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@SiqueiraD 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+1
+00SiqueiraD/siqueirad.github.io
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
+siqueirad.github.io/index.html
+@SiqueiraD SiqueiraD add mock marcacoes
+7d08420 8 days ago
+41 lines (32 sloc)  1.58 KB
+ 
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="UTF-8" />
-  <title>crimEpp</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prototipo mapaC</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="jvs.js"></script>
 </head>
 
 <body>
-
-  <!-- Criacao elemento mapaid -->
-  <div id="mapid"></div>
-
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin="" />
-  <!-- Make sure you put this AFTER Leaflet's CSS -->
-  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-    crossorigin=""></script>
-
-
-  <script src="jvs.js"></script>
-
-  <!-- Monta mapa leaflet -->
-  <script src="index.js"></script>
-
+    <div id="mapid"></div>
+    <script>
+        console.log('inicializar script interno');
+        var mymap = L.map('mapid').setView([-22.90309921448796, -43.12773227691651], 15);
+        
+        var popup = L.popup();
+        
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.satellite',
+            accessToken: 'pk.eyJ1IjoiZGFuaWxvc2ljIiwiYSI6ImNrMW54OHY5cTBnOXUzbXEzazRxZzg4dXAifQ.dwMFsKzaU7RHsPKcD4aPgA'
+        }).addTo(mymap);
+        INITIALFUNTION();
+    </script>
 </body>
 
 </html>
