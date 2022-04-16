@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.43544f82.css",
-    "main.js": "/static/js/main.4c8df601.js",
+    "main.js": "/static/js/main.27605ceb.js",
     "static/js/787.6e939cc7.chunk.js": "/static/js/787.6e939cc7.chunk.js",
+    "static/media/quimica-board.jpg": "/static/media/quimica-board.dcc2cac47ace1da061a4.jpg",
     "index.html": "/index.html",
     "main.43544f82.css.map": "/static/css/main.43544f82.css.map",
-    "main.4c8df601.js.map": "/static/js/main.4c8df601.js.map",
+    "main.27605ceb.js.map": "/static/js/main.27605ceb.js.map",
     "787.6e939cc7.chunk.js.map": "/static/js/787.6e939cc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43544f82.css",
-    "static/js/main.4c8df601.js"
+    "static/js/main.27605ceb.js"
   ]
 }
